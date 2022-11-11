@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Florista Shop</title>
+    <!-- CSS michalsnik -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- CSS Line Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <!-- CSS only (Bootstrap) -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!--  CSS Bootstrap icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!--  CSS Boxicons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+
+    <!--  Header -->
+    <header>
+
+        <!--  Nav Menu  -->
+        <section class="nav container">
+            <a href="#" class="logo">El Florista</a>
+            <i class='bx bx-cart-alt' id="icon-cart"></i>
+
+            <!--  User Cart  -->
+            <section class="user-cart">
+                <div class="flex-cart-title">
+                    <h2 class="cart-title">Carrito</h2>
+                    <i class='bx bx-x' id="cart-close"></i>
+                </div>
+                <div class="cart-content">
+                    <div class="cart-box">
+                        <img src="img/bong1.jpg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <h3 class="cart-ptitle">GRAV® POCKET BUBBLER</h3>
+                            <h3 class="cart-pprice">$900 MXN</h3>
+                            <input type="number" value="1" class="quantity-cart">
+                        </div>
+                        <i class='bx bx-trash remove-cart' ></i>
+                    </div>
+                </div>
+                <!--  Total Price  -->
+                <section class="total">
+                    <h3 class="total-title">Total</h3>
+                    <h3 class="total-price">$0</h3>
+                </section>
+                <!--  Button Buy  -->
+                <button type="button" class="btn-buy">Finalizar Compra</button>
+            </section>
+        </section>
+        <!--  Nav Menu End  -->
+
+    </header>
+    <!--  Header End  -->
+
+    <!--  Shop  -->
+    <section class="shop container">
+        <h1 class="shop-title">Shop Productos</h1>
+        <div class="shop-content">
+            <div class="box-product">
+                <img src="img/pipa1.jpg" alt="" class="img-product">
+                <h2 class="title-product">GRAV® LARGE SPOON</h2>
+                <span class="price">$500 MXN</span>
+                <i class='bx bxs-shopping-bags add-cart' ></i>
+            </div>
+            <div class="box-product">
+                <img src="img/pipa2.jpg" alt="" class="img-product">
+                <h2 class="title-product">GRAV® MINI SHERLOCK</h2>
+                <span class="price">$650 MXN</span>
+                <i class='bx bxs-shopping-bags add-cart' ></i>
+            </div>
+            <div class="box-product">
+                <img src="img/papers1.png" alt="" class="img-product">
+                <h2 class="title-product">GRAV® WOBBLE BUBBLER</h2>
+                <span class="price">$1,500 MXN</span>
+                <i class='bx bxs-shopping-bags add-cart' ></i>
+            </div>
+            <div class="box-product">
+                <img src="img/papers2.png" alt="" class="img-product">
+                <h2 class="title-product">GRAV® SLUSH CUP</h2>
+                <span class="price">$1,500 MXN</span>
+                <i class='bx bxs-shopping-bags add-cart' ></i>
+            </div>
+            <div class="box-product">
+                <img src="img/bong1.jpg" alt="" class="img-product">
+                <h2 class="title-product">GRAV® POCKET BUBBLER</h2>
+                <span class="price">$900 MXN</span>
+                <i class='bx bxs-shopping-bags add-cart' ></i>
+            </div>
+            <div class="box-product">
+                <img src="img/bong2.jpg" alt="" class="img-product">
+                <h2 class="title-product">GRAV® COFFEE MUG BUBBLER</h2>
+                <span class="price">$2,000 MXN</span>
+                <i class='bx bxs-shopping-bags add-cart' ></i>
+            </div>
+            <div class="box-product">
+                <img src="img/bong3.jpg" alt="" class="img-product">
+                <h2 class="title-product">GRAV® LARGE GRAVITRON®</h2>
+                <span class="price">$2,000 MXN</span>
+                <i class='bx bxs-shopping-bags add-cart' ></i>
+            </div>
+            <div class="box-product">
+                <img src="img/bong4.jpg" alt="" class="img-product">
+                <h2 class="title-product">GRAV® SMOKE EMPRESS</h2>
+                <span class="price">$2,500 MXN</span>
+                <i class='bx bxs-shopping-bags add-cart' ></i>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Javascript michalsnik -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"></script>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  </body>
+</html>
