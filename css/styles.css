@@ -86,7 +86,7 @@ header {
 .user-cart {
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     width: 340px;
     min-height: 100vh;
     padding: 20px;
